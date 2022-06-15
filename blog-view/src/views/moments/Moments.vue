@@ -55,15 +55,6 @@
 				}
 			},
       dateFromNow:dateFromNow
-      // ,
-      // dateFromNow(moment){
-      //   const value = moment.createTime;
-      //   //相对时间大于一个月，显示详细时间
-      //   if (moment().diff(moment(value)) > 2592000000) {
-      //     return moment(value).format('YYYY-MM-DD HH:mm')
-      //   }
-      //   return moment(value).fromNow()
-      // }
 		},
 		watch: {
 			likeMomentIds(newValue) {

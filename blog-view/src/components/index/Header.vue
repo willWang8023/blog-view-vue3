@@ -1,12 +1,12 @@
 <template>
 	<header ref="header">
 		<div class="view">
-			<img ref="imgbg1" src="/index/header/bg1.jpeg" style="display: none;">
-			<div class="bg1" style="background-image: url('/index/header/bg1.jpeg');"></div>
-			<div class="bg2" style="background-image: url('/index/header/bg3.jpeg');"></div>
-			<div class="bg3" style="background-image: url('/index/header/bg4.jpeg');" v-show="loaded"></div>
+			<img ref="imgbg1" src="https://fastly.jsdelivr.net/gh/Naccl/blog-resource/img/bg1.jpg" style="display: none;">
+			<div class="bg1" style="background-image: url('https://fastly.jsdelivr.net/gh/Naccl/blog-resource/img/bg1.jpg');"></div>
+			<div class="bg2" style="background-image: url('https://fastly.jsdelivr.net/gh/Naccl/blog-resource/img/bg2.jpg');"></div>
+			<div class="bg3" style="background-image: url('https://fastly.jsdelivr.net/gh/Naccl/blog-resource/img/bg3.jpg');" v-show="loaded"></div>
 		</div>
-		<div class="text-malfunction" data-word="温故而知新可以为师矣">
+		<div class="text-malfunction" data-word="Naccl's Blog">
 			<div class="line"></div>
 		</div>
 		<div class="wrapper">
@@ -127,11 +127,9 @@
 	.text-malfunction {
 		position: absolute;
 		top: 40%;
-		left: 49.5%;
+		left: 51.5%;
 		transform: translate(-50%, -50%) scale(2.5);
-		width: 171px;
-    height:70px;
-    line-height:1.1em;
+		width: 220px;
 		font-size: 34px;
 		font-family: sans-serif;
 		color: transparent;
@@ -139,7 +137,7 @@
 
 	.line {
 		position: absolute;
-		width: 171px;
+		width: 200px;
 		left: -1px;
 		height: 1px;
 		background: black;
@@ -151,7 +149,7 @@
 		content: attr(data-word);
 		position: absolute;
 		top: 0;
-		height: 66px;
+		height: 36px;
 		overflow: hidden;
 		filter: contrast(200%);
 	}
@@ -175,31 +173,31 @@
 
 	@keyframes lineMove {
 		9% {
-			top: 68px;
-		}
-		14% {
 			top: 38px;
 		}
+		14% {
+			top: 8px;
+		}
 		18% {
-			top: 72px;
-		}
-		22% {
-			top: 31px;
-		}
-		32% {
-			top: 62px;
-		}
-		34% {
 			top: 42px;
 		}
+		22% {
+			top: 1px;
+		}
+		32% {
+			top: 32px;
+		}
+		34% {
+			top: 12px;
+		}
 		40% {
-			top: 56px;
+			top: 26px;
 		}
 		43% {
-			top: 37px;
+			top: 7px;
 		}
 		99% {
-			top: 60px;
+			top: 30px;
 		}
 	}
 

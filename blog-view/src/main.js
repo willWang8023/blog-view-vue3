@@ -22,12 +22,12 @@ import Viewer from 'v-viewer'
 //directive
 import './util/directive'
 
-// console.log(
-//     '%c willBlog %c By willWang %c https://github.com/willWang8023/will_blog_view',
-//     'background:#35495e ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff',
-//     'background:#41b883 ; padding: 1px; border-radius: 0 3px 3px 0;  color: #000',
-//     'background:transparent'
-// )
+console.log(
+    '%c NBlog %c By Naccl %c https://github.com/Naccl/NBlog',
+    'background:#35495e ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff',
+    'background:#41b883 ; padding: 1px; border-radius: 0 3px 3px 0;  color: #000',
+    'background:transparent'
+)
 
 const app = createApp(App,
     {
@@ -78,7 +78,7 @@ app.config.productionTip = false
 //     Viewer,
 //     router,
 //     store
-//     // ,
+//     // ,npm
 //     // render: h => h(App)
 // );
 

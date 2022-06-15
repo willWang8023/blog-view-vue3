@@ -146,12 +146,6 @@
 		},
 		methods: {
       dateFormat:dateFormat,
-      // dateFormat(value,format){
-      //   if(value){
-      //     return moment(value).format(format)
-      //   }
-      //   return moment('2022-06-05 00:00:00').format(format)
-      // },
 			getBlog(id = this.blogId) {
 				//密码保护的文章，需要发送密码验证通过后保存在localStorage的Token
 				const blogToken = window.localStorage.getItem(`blog${id}`)

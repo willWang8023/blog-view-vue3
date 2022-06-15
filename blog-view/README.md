@@ -1,35 +1,18 @@
-# will_blog_view
+# blog-view
 
 ## Project setup
-```bash
+```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
-```shell
-npm run serve
 ```
-#### Compiles and hot-reloads for development config
-```shell
-npm run dev
+npm run serve
 ```
 
 ### Compiles and minifies for production
-```shell
+```
 npm run build
-```
-### Compiles and minifies for development
-```shell
-npm run devBuild
-```
-### Compiles and minifies for test
-```shell
-npm run testBuild
-```
-
-### Lints and fixes files
-```shell
-npm run lint
 ```
 
 ### Customize configuration

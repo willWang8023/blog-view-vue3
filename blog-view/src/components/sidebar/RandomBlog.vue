@@ -32,12 +32,6 @@
 				this.$store.dispatch('goBlogPage', blog)
 			},
       dateFormat:dateFormat
-      // dateFormat(value,format){
-      //   if(value){
-      //     return moment(value).format(format)
-      //   }
-      //   return moment('2022-06-05 00:00:00').format('YYYY-MM-DD HH:mm:ss')
-      // }
 		}
 	}
 </script>
